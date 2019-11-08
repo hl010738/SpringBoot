@@ -31,7 +31,7 @@ jar {
 	baseName = 'Spring boot demo'
 	manifest {
 		attributes "Manifest-Version": 1.0,
-				'Main-Class': 'com.bamboonetworks.Application'
+				'Main-Class': 'com.test.Application'
 	}
 }
 
