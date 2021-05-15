@@ -1,6 +1,5 @@
 package com.example.demo.user.entity;
 
-import com.alibaba.fastjson.annotation.JSONField;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -30,8 +29,6 @@ public class User {
 
     private String flag = "0";
 
-    @CreatedDate
-    @JSONField(format="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createdTime;
 
     public Integer getId() {
