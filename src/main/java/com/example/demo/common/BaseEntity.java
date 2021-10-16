@@ -1,6 +1,5 @@
 package com.example.demo.common;
 
-import com.alibaba.fastjson.annotation.JSONField;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
@@ -23,12 +22,10 @@ public class BaseEntity {
     @CreatedBy
     private String createdBy;
     @CreatedDate
-    @JSONField(format="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createdOn;
     @LastModifiedBy
     private String lastModifiedBy;
     @LastModifiedDate
-    @JSONField(format="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime lastModifiedOn;
 
     public String getCreatedBy() {
