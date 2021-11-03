@@ -1,4 +1,4 @@
-package com.example.demo.common;
+package com.example.demo.util;
 
 import java.nio.ByteBuffer;
 import java.util.UUID;
